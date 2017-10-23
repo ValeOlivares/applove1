@@ -1,0 +1,119 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header{
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  height: 60px;
+  position: fixed;
+  border: 1px solid black;
+}
+
+.logo{
+  width: 40px;
+  float: right;
+  border: 1px solid black;
+}
+
+.top{
+  background-image: url("/home/vale/Documentos/Laboratoria/AppLove/assets/images/bg-home.jpg");
+  background-size: cover;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.services{
+  background: #00DD73;
+  color: white;
+  width: 200px;
+  height: 150px;
+}
+.rosa{
+  background-color: #FE6D6A;
+  color: white;
+  text-align: center;
+}
+.columnas{
+  columns: 3;
+}
+
+.imagenes{
+  width: 200px;
+}
+
+.hero{
+  width: 70%;
+  text-align: center;
+}
